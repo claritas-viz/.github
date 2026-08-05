@@ -1,10 +1,106 @@
 {
+  "$schema": "./repository-relationships.schema.json",
+  "audience": "public",
+  "generated": {
+    "complete_for_visibility": "public",
+    "generated_at": "2026-08-05T21:07:32Z",
+    "generator_version": "2026-08-04.1",
+    "inventory_digest": "sha256:fdd454ddc719db7b12bbb097fd15696d85d1689318d943217823b2b710f2177f",
+    "managed_by": "ore-repository-relationship-rollout",
+    "omitted_repository_count": 3,
+    "private_repositories_omitted": true,
+    "source": "GitHub GraphQL repository inventory plus reviewed manual declarations"
+  },
+  "owner": {
+    "account_type": "organization",
+    "dotgithub_repository": "claritas-viz/.github",
+    "github_id": "306201730",
+    "linear_project": {
+      "id": "ff47fc82-5612-4bf6-a8cc-cc23da267931",
+      "name": "github.com/claritas-viz",
+      "team_id": "eb8ab169-5afe-4b6f-9cab-3f2aa3e887dc",
+      "url": "https://linear.app/denman/project/githubcomclaritas-viz-09fcc5d7dd9e",
+      "workspace": "denman"
+    },
+    "login": "claritas-viz",
+    "mapping_id": "context:claritas-viz"
+  },
+  "private_registry": {
+    "contains_non_public_inventory": true,
+    "digest": "sha256:94641214bd3c38b921c57b757481aa4a1ec40706a91cbb5a77d774a3eb500eb6",
+    "path": "owners/claritas-viz.json",
+    "repository": "ORESoftware/project-registry"
+  },
+  "relationships": [
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "claritas-viz/.github",
+      "id": "sha256:58f3e86b07c136517e2ac3b6f14a3071e72c3b6c3708982bb806c78648090f1f",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "claritas-viz/claritas-viz.github.io",
+      "type": "governs"
+    },
+    {
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "kind": "repository-name",
+          "value": "claritas-viz.github.io"
+        }
+      ],
+      "from": "claritas-viz/claritas-viz.github.io",
+      "id": "sha256:7386003d63e94b6995fd108f3b249294f2a480b5567f5df479579ba107180e9a",
+      "notes": "The conventional *.github.io repository documents the organization profile.",
+      "required": false,
+      "scope": "organization",
+      "status": "inferred",
+      "to": "claritas-viz/.github",
+      "type": "documents"
+    }
+  ],
+  "repositories": [
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "claritas-viz/.github",
+      "github_id": "1324047266",
+      "name": ".github",
+      "owner": "claritas-viz",
+      "roles": [
+        "community-health",
+        "governance",
+        "relationship-registry"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/claritas-viz/.github",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "claritas-viz/claritas-viz.github.io",
+      "github_id": "1304025905",
+      "name": "claritas-viz.github.io",
+      "owner": "claritas-viz",
+      "roles": [
+        "documentation-site"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/claritas-viz/claritas-viz.github.io",
+      "visibility": "public"
+    }
+  ],
   "schema_version": 1,
-  "organization": "claritas-viz",
-  "generated_at": null,
-  "repositories": [],
-  "notes": [
-    "Populate from live GitHub inventory; do not infer unverified dependencies.",
-    "Repository-local manifests remain authoritative for exact dependency versions."
-  ]
+  "unresolved_hints": []
 }

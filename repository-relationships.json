@@ -29,7 +29,7 @@
     "contains_non_public_inventory": true,
     "digest": "sha256:94641214bd3c38b921c57b757481aa4a1ec40706a91cbb5a77d774a3eb500eb6",
     "path": "owners/claritas-viz.json",
-    "repository": "ORESoftware/project-registry"
+    "repository": "approved-private-registry"
   },
   "relationships": [
     {

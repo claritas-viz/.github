@@ -63,6 +63,8 @@ Never print, log, commit, paste into issues, include in fixtures, or expose toke
 ## Pull requests, validation, and evidence
 
 Use focused branches and pull requests. Link the relevant Linear issue or project. Explain behavior, risks, migration and roll-forward considerations, security impact, tests run, conflicts and their semantic resolution, and cross-repository dependencies. Never report a branch, commit, pull request, merge, deployment, test run, or external update as complete without authoritative remote evidence.
+
+When the change is verified, commit it, fetch, merge the remote default branch, push, and open or update the pull request. Do not wait for the user to say "commit" or "push". Ready work must not remain only on the local disk. Merge with a merge commit when checks are green and review is not blocked.
 <!-- ore-org-baseline:end -->
 
 <!-- ore-primary-branch-policy:begin -->

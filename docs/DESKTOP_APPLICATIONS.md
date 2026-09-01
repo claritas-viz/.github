@@ -63,7 +63,7 @@ Stable schemas, query/result formats, visualization specs, route fixtures, sampl
 
 Both repositories must begin as buildable scaffolds, not placeholders. The Rust repo must include `docs/DESKTOP_TOOLKIT.md`, reciprocal README/AGENTS/PR guidance, native CI/package skeletons, smoke tests, accessibility checks, and shared contract fixtures.
 
-Central toolkit assignments: [`rust-desktop-strategies.md`](https://github.com/ORESoftware/project-registry/blob/main/docs/rust-desktop-strategies.md).
+Central toolkit assignments are maintained in the approved private registry at `private-registry://canonical/registry/rust-desktop-strategies.md`; public repositories must not expose its backing repository locator.
 
 ## Project routing
 

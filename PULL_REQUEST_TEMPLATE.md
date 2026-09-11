@@ -46,3 +46,10 @@ List exact commands, workflow runs, fixtures, migration or drift results, manual
 - [ ] No force push, rebase, destructive reset, history rewrite, branch deletion, review bypass, or required-check bypass was used.
 - [ ] The working change contains no unresolved conflict markers or unrelated edits.
 - [ ] Roll-forward and rollback expectations are explicit, and intentionally deferred work is linked.
+## Salvage check
+
+If this PR supersedes or replaces an older one, say which, and name at least one
+concrete thing carried forward from it (a test, a fixture, an error message, a
+pin, a doc paragraph). See [`docs/pr-salvage-policy.md`](../docs/pr-salvage-policy.md).
+
+- [ ] Supersedes nothing, **or** the salvaged item is named above.
